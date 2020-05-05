@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  lab:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/usr/src/app
+      - libraries_cache:/usr/local/lib/R/site-library
+    env_file:
+      - .env/jupyter
+
+volumes:
+  libraries_cache:

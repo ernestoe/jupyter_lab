@@ -1,0 +1,15 @@
+neo4j
+tweepy
+jupyterlab
+notebook
+sqlalchemy
+pymysql
+uuid
+opencv-contrib-python
+opencv-python
+python-dotenv
+alembic
+matplotlib
+pandas
+seaborn
+bash_kernel
