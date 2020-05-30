@@ -10,6 +10,7 @@ services:
       - libraries_cache:/usr/local/lib/R/site-library
     env_file:
       - .env/jupyter
+    # command: ["jupyter", "notebook", "--notebook-dir=/usr/src/app/lab_app", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
 
 volumes:
   libraries_cache:
